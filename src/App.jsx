@@ -1,5 +1,5 @@
 import './App.css';
-
+import Hello from './Hello';
 function App() {
   return (
     <div className="App">
@@ -11,6 +11,7 @@ function App() {
         <p className="small">
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
+        <p>Hello Phoom: <i>s19</i></p>
         <p>
           <a
             className="App-link"
@@ -21,6 +22,7 @@ function App() {
             Learn React
           </a>
         </p>
+      <Hello/>
       </header>
     </div>
   );
